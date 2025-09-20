@@ -1,5 +1,5 @@
 {
-  "name": "@flixsync/types",
+  "name": "@flixsync/flixsync-shared-library",
   "version": "1.0.0",
   "description": "Shared TypeScript types and interfaces for the FlixSync Platform",
   "main": "dist/index.js",

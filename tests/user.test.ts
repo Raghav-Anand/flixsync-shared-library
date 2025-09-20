@@ -5,7 +5,7 @@ import type {
   UserPreferences,
   CreateUserRequest,
   AuthResponse
-} from '../src/user';
+} from '../lib/user';
 
 describe('User Types', () => {
   describe('User interface', () => {

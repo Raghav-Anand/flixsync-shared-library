@@ -5,7 +5,7 @@ import type {
   UpdateRatingRequest,
   RatingStats,
   UserRatingStats
-} from '../src/rating';
+} from '../lib/rating';
 
 describe('Rating Types', () => {
   describe('Rating interface', () => {

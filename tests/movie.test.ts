@@ -5,7 +5,7 @@ import type {
   MovieStreamingAvailability,
   MovieSearchResult,
   MovieSearchRequest
-} from '../src/movie';
+} from '../lib/movie';
 
 describe('Movie Types', () => {
   describe('Movie interface', () => {

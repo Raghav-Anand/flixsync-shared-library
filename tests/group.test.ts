@@ -5,7 +5,7 @@ import type {
   GroupSettings,
   CreateGroupRequest,
   GroupRecommendation
-} from '../src/group';
+} from '../lib/group';
 
 describe('Group Types', () => {
   describe('GroupSession interface', () => {
