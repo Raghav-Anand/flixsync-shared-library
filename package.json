@@ -17,13 +17,12 @@
   "author": "FlixSync Team",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-org/flixsync.git",
-    "directory": "shared/flixsync-types"
+    "url": "git+https://github.com/your-username/flixsync-shared-library.git"
   },
   "bugs": {
-    "url": "https://github.com/your-org/flixsync/issues"
+    "url": "https://github.com/your-username/flixsync-shared-library/issues"
   },
-  "homepage": "https://github.com/your-org/flixsync#readme",
+  "homepage": "https://github.com/your-username/flixsync-shared-library#readme",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.0.0",
