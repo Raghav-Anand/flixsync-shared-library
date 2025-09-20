@@ -6,7 +6,7 @@ import type {
   HealthCheck,
   ValidationError,
   AuditLog
-} from '../src/common';
+} from '../lib/common';
 
 describe('Common Types', () => {
   describe('ApiResponse interface', () => {
