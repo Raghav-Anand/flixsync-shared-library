@@ -1,0 +1,45 @@
+{
+  "name": "@flixsync/types",
+  "version": "1.0.0",
+  "description": "Shared TypeScript types and interfaces for the FlixSync Platform",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "clean": "rimraf dist",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "prepare": "npm run build"
+  },
+  "keywords": ["movie", "flixsync", "recommendation", "typescript", "types"],
+  "author": "FlixSync Team",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/flixsync.git",
+    "directory": "shared/flixsync-types"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/flixsync/issues"
+  },
+  "homepage": "https://github.com/your-org/flixsync#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "rimraf": "^5.0.0",
+    "vitest": "^1.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
